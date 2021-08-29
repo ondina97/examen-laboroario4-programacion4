@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>CALCULADORA</title>
+	<style type="text/css">
+		p{text-align: center;
+			font-size: 1.8em;
+			font:bold;
+			color:red;}
+
+			table{margin-top: 4em;
+				text-align: center;
+				background-color:green;
+				border-radius:.7em;}
+
+				td input[type="button"]{font-size:1.8em;
+				font:bold;}
+				td input[type="text"]{font-size:1.5em;
+					font:bold
+					text-align:right;}
+					body{background: #ffcccc;}
+	</style>
+</head>
+<body>
+	<br>
+	<p>
+		<p>Mi Primera Calculadora</p>
+		<form name="formulario">
+			<table border="1" align="center">
+				<tr>
+					<td colspan ="4"> <input type="text" name="entrada" disable="disabled">
+						</td>
+					</tr>
+					<tr>
+						<td><input type="button"value="c" 
+							onclik="entrada.value="></td>
+						</tr>
+						<tr>
+							<td><input type="button" value="7"onclick="entrada.value+='7">
+							</td>
+							<td><input type="button" value="8" onclick="entrada.value+='8">	
+							</td>
+							<td><input type="button" value="9" onclick="entrada.value+='9">
+							</td>
+							<td><input type="button" value="/" onclick="entrada.value+='/">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" value="4" onclick="entrada.value+='4"></td>
+							<td><input type="button" value="5" onclick="entrada.value+='5"></td>
+							<td><input type="button" value="6" onclick="entrada.value+='6"></td>
+							<td><input type="button" value="*" onclick="entrada.value+='*">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" value="3" onclick="entrada.value+='3"></td>
+							<td><input type="button" value="2" onclick="entrada.value+='2"></td>
+							<td><input type="button" value="1" onclick="entrada.value+='1">
+							</td>
+							<td><input type="button" value="-" onclick="entrada.value+='-">
+							</td>
+						</tr>
+						<tr>
+							<td><input type="button" value="0" onclick="entrada.value+='0"></td>
+							<td><input type="button" value="." onclick="entrada.value+='."></td>
+							<td><input type="button" value="=" onclick="entrada.value=eval(entrada.value)">	</td>
+						</tr>
+						<tr>
+						  <td><input type="button" value="+" onclick="entrada.value+'+">	</td>
+						  </tr>
+						  </table>
+						  </body>
+						  </html>			
+
+
+
+
+
+

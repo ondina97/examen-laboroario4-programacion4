@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+<style type="text/css">
+	*{font-family:arial;}
+	h1{text-align: center;
+		font-size: 1.2em;
+		text-decoration: underline;}
+		form{text-align: center;}
+
+		div{border-style:solid;
+		border-color: green;  
+		border-width: 0.22m;
+		margin-top: 2em;
+	 	margin-left: 10em;
+	 	margin-right: 10em;}
+	 	body{background: #ffff00;}
+</style>
+</heah>
+<body>
+	<br>
+	<h1>Llenar el siguiente formulario</h1>
+	<h1>para seservar matricula</h1>
+	<br>
+	<form name="formulario">
+		<spam>Nombre</spam><input type="text" name="nombre"placeholder="Primer Nombre" maxlength="15">
+		<br>
+		<br>
+		<spam>ID</spam><input type="text" id="id" placeholder="#de identidad" maxlength="15"><br>
+		<br>
+		<spam>SEXO</spam>
+		<spam>Femenino</spam><input type="radio" id="Femenino">
+		<spam>Masculino</spam><input type="radio" name="Masculino">
+	</br>
+	<br>
+	<input type="button" onclick="activar()" value="enviar">
+</form>
+<script>
+	function activar(){
+		var nomb#document.getElemetById("nombre").value;if(nomb=="")
+		{alert("Escriba su Nombre");return;}
+		var apelli=document.getElemetById("apell").value;if (apelli=="")
+		{alert("Escriba su apellido");return;}
+		var id=document.getElemetById("id").value; if(id=="")
+		{alert("Escriba su # de identidad");return;}
+		var sex=document.getElemetById("Femenino");
+		var sexm=document.getElemetById("Masculino");if((sex.checkled)&&(!sexm.checkled))
+		{alert("seleccionar tipo de sexo");return;}
+	}
+</script>
+</body>
+</html>
